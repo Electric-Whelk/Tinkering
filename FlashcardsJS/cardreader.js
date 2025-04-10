@@ -20,10 +20,10 @@ function initialize(data){
     const q = 0; 
     const a = 1;
 
-    //determine max and do a random number on a loop
-    //(actually it shouldn't be a random number, it should be numbers in a random order)
-    const max = findMax(qanda);
-    let i = randomInt(max);
+    let deck = new numDeck(qanda.length)
+
+    let i = deck.reveal();
+    console.log(i);
 
     //TODO: find difference between div and span. then make some buttons!  
 
@@ -34,10 +34,8 @@ function initialize(data){
     answer.innerText = data.QandA[i][a];
 }
 
-function findMax(qanda){
+/*function findMax(qanda){
     let length = qanda.length;
-    //just to make things start from zero.
-    length -= 1
     return length;
 
 }
@@ -47,4 +45,4 @@ function randomInt(max){
     let outp = Math.round(Math.random() * max);
     console.log(outp);
     return outp;
-}
+}*/
