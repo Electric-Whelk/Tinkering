@@ -14,25 +14,26 @@ fetch("cards.json")
 
 function initialize(data){
 
+    //basic setup including buttons
     let qanda = data.QandA;
-
-    //magic numbers
-    const q = 0; 
-    const a = 1;
-
-    let deck = new numDeck(qanda.length)
-
-    let i = deck.reveal();
-    console.log(i);
+    let screen = new view(qanda);
+    screen.visualize();
+    //docSetup();
 
     //TODO: find difference between div and span. then make some buttons!  
 
-
-    const question = document.getElementById("question");
+    /*const question = document.getElementById("question");
     const answer = document.getElementById("answer");
     question.innerText = data.QandA[i][q];
-    answer.innerText = data.QandA[i][a];
+    answer.innerText = data.QandA[i][a];*/
 }
+
+/*function docSetup(){
+    const cor = document.getElementById("c");
+    const inc = document.getElementById("i");
+
+    cor.addEventListener("click", )
+}*/
 
 /*function findMax(qanda){
     let length = qanda.length;

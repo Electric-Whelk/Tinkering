@@ -16,15 +16,12 @@ class numDeck{
         //BOOKMARK
         let outp = []
         for(let i = 0; i < inp; i++){
-            console.log("looping! " + i)
-            outp.push[i]
-            console.log("outp: " + outp)
+            outp.push([i]);
         }
         return outp;
     }
 
     randomInt(max){
-        console.log(max);
         let outp = Math.round(Math.random() * max);
         console.log(outp);
         return outp;
@@ -39,7 +36,7 @@ class numDeck{
         let j;
         let tmp;
         while(i != 0){
-            j = randomInt(i);
+            j = this.randomInt(i);
             i--;
 
             tmp = this.deck[i];
