@@ -8,22 +8,47 @@ class view{
         this.question = document.getElementById("question");
         this.answer = document.getElementById("answer");
 
-        this.correct = this.idAndEvent("c", "click", function(){this.incorrect()});
-        this.incorrect = this.idAndEvent("i", "click", function(){this.correct()});
+        this.cButton = document.getElementById("c");
+        this.cButton.addEventListener("click", () => this.correct());
+
+        this.iButton = document.getElementById("i");
+        this.iButton.addEventListener("click", () => this.incorrect());
+
+        this.rButton = document.getElementById("r");
+        this.rButton.addEventListener("click", () => this.reveal());
+
+        this.resetPage();
 
     }
 
-    idAndEvent(id, trig, func){
-        let outp = document.getElementById(id);
-        outp.addEventListener(trig, func)
-        return outp;
+    incorrect(){
+        this.deck.answer(false);
+        this.resetPage();
     }
 
-    incorrect(){console.log("incorrect");}
+    correct(){
+        this.deck.answer(true);
+        this.resetPage();    
+    }
 
-    correct(){console.log("correct");}
+    reveal(){
+        const index = this.deck.topCard();
+        this.answer.innerText = this.getAnswerByNumber(index);
+    }
 
-    
+    resetPage(){
+        const index = this.deck.topCard();
+        if(index === -1){
+            this.question.innerText = "Finished!";
+        }else{
+            this.question.innerText = this.getQuestionByNumber(index);
+            this.answer.innerText = "";
+        }
+    }
+
+
+
+
 
     getAnswerByNumber(i){
         return this.qanda[i][1];
@@ -31,12 +56,5 @@ class view{
 
     getQuestionByNumber(i){
         return this.qanda[i][0];
-    }
-
-    visualize(){
-        const index = this.deck.reveal();
-        this.question.innerText = this.getQuestionByNumber(index);
-        this.answer.innerText = this.getAnswerByNumber(index);
-
     }
 }

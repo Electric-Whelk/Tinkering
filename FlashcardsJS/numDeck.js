@@ -18,21 +18,26 @@ class numDeck{
         for(let i = 0; i < inp; i++){
             outp.push([i]);
         }
+        console.log("full deck: " + outp);
         return outp;
     }
 
     randomInt(max){
         let outp = Math.round(Math.random() * max);
-        console.log(outp);
+        console.log("Random int: " + outp);
         return outp;
     }
 
-    reveal(){
-        return(this.deck[0]);
+    topCard(){
+        if(this.deck.length <= 0){
+            return -1;
+        }else{
+            return(this.deck[0]);
+        }
     }
 
     shuffle(){
-        let i = this.deck.length;
+        let i = this.deck.length - 1;
         let j;
         let tmp;
         while(i != 0){
@@ -43,5 +48,6 @@ class numDeck{
             this.deck[i] = this.deck[j];
             this.deck[j] = tmp;
         }
+        console.log("Deck after shuffling: " + this.deck);
     }
 }
