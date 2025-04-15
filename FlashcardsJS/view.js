@@ -3,7 +3,6 @@ class view{
         this.qanda = contents;
         this.deck = new numDeck(contents.length);
 
-
         //set up document sections
         this.question = document.getElementById("question");
         this.answer = document.getElementById("answer");
@@ -18,7 +17,6 @@ class view{
         this.rButton.addEventListener("click", () => this.reveal());
 
         this.resetPage();
-
     }
 
     incorrect(){
@@ -45,10 +43,6 @@ class view{
             this.answer.innerText = "";
         }
     }
-
-
-
-
 
     getAnswerByNumber(i){
         return this.qanda[i][1];

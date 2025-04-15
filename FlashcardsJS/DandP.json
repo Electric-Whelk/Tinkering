@@ -1,12 +1,80 @@
 {"QandA":
 [
+
 ["What is scrum?",
 "An agile software developmeht methodology based around repeated two-week(ish) 'sprints', each one of which involves planning, designing, building and testing"],
+
+["What is a (singular) scrum?",
+"A standup meeting held during scrum development cycles"],
+
+["What is product backlog?",
+"A todo list of jobs that need doing in scrum development"],
+
+["What is product owner?",
+"A term in scrum development for the client or their representative"],
 
 ["In 'scrum' development process, what is the project owner?",
 "Also called the project manager. In additon to prioritizing developments and overseeing the overall vision, they are the first point of call with stakeholders"],
 
 ["In 'scrum' development process, who is the scrum master?",
-"Also called the delivery manager. They oversee the team and make sure it's working smoothly. This can sometimes be a rotating role through the cycle of development, and may be irrelevant in a high performing team"]
+"Also called the delivery manager. They oversee the team and make sure it's working smoothly. This can sometimes be a rotating role through the cycle of development, and may be irrelevant in a high performing team"],
+
+["What is extreme development?",
+"An agile software development methodology used to prevent coders from writing complex code that they alone are responsible for in heroic bursts"],
+
+["What are the five principles of extreme programming?",
+"(1) SIMPLE DESIGN - find the simplest way to code features, \n(2) SUSTAINABLE PACE - work at a sustainable pace, \n(3) CODING STANDARDS - teams follow an agreed-upon standard and format, where no individual uses techniques the others are not aware of, \n(4) COLLECTIVE OWNERSHIP, where everyone owns all code produced, \n(5) WHOLE TEAM APPROACH, where everyone is involved in decisions"],
+
+["Name five practices that form part of extreme programming",
+"(1) Pair programming, \n(2) Test Driven Coding, where you build the testing process into the day-to-day codewriting rather than leaving testing to the end, \n(3) Small releases - create a minimum viable product and then add small features, \n(4) Continuous integration - keep integrating features one by one and make sure each works, \n(5) refactoring - restructure when things get messy"],
+
+["What is pair programming?",
+"Two people divide into helm and tactician. The helm writes the code and the tactician thinks about the implications and spots areas for refactoring. Works if the pair can communicate well; teams should regularly swap even functional pairs to facilitate cross-team communication. The pair does not own this code and others can change it. All code is reviewed as it is written"],
+
+["Previous studies have shown pair programming to have what effects on the overall development?",
+"Improves coder retention and code quality at the expense of a 15% increase in developer time costs. Slight increase in code output \n(77 lines per month for each individual, 175 for a single pair). Improves the technical skill of coders."],
+
+["What is test-driven development?",
+"Rather than write code and then test it, think of the tests your code has to pass for you to be sure that it works. This is a wholesale shift in focus - think about what tests your code needs to pass"],
+
+["What are the benefits of test-driven development?",
+"Since you are writing code to pass tests, you have no code that is not tested. It also helps debugging and documentation, by highlighting individual areas of error"],
+
+["What is Kanban?",
+"Emerges from the japanese concept of just-in-time manufacturing, where you don't store components you might need in the future but instead bring them to the production line just in time. Kanban is a way to manage and schedule this by dividing the todo list into to do, doing, and done (sometimes there are extra columns as needed, ie - backlog, being verified, awaiting integration."],
+
+["What are swimlanes?",
+"A feature of more complex Kanban boards - horizontal lines that cut across the columns, that usually divide the board up into work for seperate teams or subteams."],
+
+["When can you use a waterfall approach?",
+"When you have clear requirements at the outset - for example, if your software is digitizing an existing paper-based protocol. Most projects would be better served by agile"],
+
+["When can you use an agile approach?",
+"When you do not have enough information at the outset to say with confidence that you will be able to complete each Waterfall stage before moving to the next"],
+
+["What are the five stages of waterfall development and how do they link up?",
+"Analyse, design, code, test, deploy. You complete one before moving to the next."],
+
+["How can you conceptualize an agile development model in terms of the five stages of waterfall development?",
+"Do all five over and over again, iteratively, without committing to a final design in advance"],
+
+["What are the four key principles of agile software development, as set out in the 2001 Utah manifesto?",
+"Individuals and interaction over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; responding to change over following a plan"],
+
+["What should the delivery schedule be from client to developer in agile development?",
+"There should be regular demonstrations of working (if not complete) code. If possible, developers should talk to clients daily."],
+
+["Agile development runs on twelve principles, five of which are about meeting client needs and six are about meeting coders. What are the client-side principles?",
+"(1) Highest priority is satisfying the client through good work delivered to time, \n(2) Embrace change, even late in the cycle, \n(3) Collaborate daily with the client, \n(4) use face-to-face communication, \n(5) frequently deliver/demonstrate working software"],
+
+["Agile development runs on twelve principles, seven of which are about meeting client needs and six are about meeting coders. What are the developer-side principles?",
+"(1) Work at a steady, sustainable pace without heroic efforts, \n(2) Rely on self-organizing teams, \n(3) Teams reflect regularly on their performance, \n(4) Measure progress in quantity of working code produced, \n(5) continuous attention to technical excellence, \n(6) Minimize unneccessary work, \n(7) Build teams around motivated individuals."],
+
+["Name four problems with agile",
+"(1) CONTRACTS - it's hard to draw up contracts, and this can be an unneccessary limitation if you are reasonably sure you know the requirements at the start \n(2) GREENFIELD VS BROWNFIELD - good for greenfield development, not brownfield \n(3) TEAM SIZE - works great for small co-located teams, harder for larger more geographically spread teams, \n(4) EMBODIED KNOWLEDGE - with less documentation, code is more vulnerable to coder absence, permanent or temporary"],
+
+["What is the difference between green-field and brown-field development?",
+"It's an informal term derived from housing; green-field development is writing wholly new code while brown-field development is overhauling/maintaining legacy code"]
+
 ]
 }
