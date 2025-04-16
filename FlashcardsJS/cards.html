@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <head><link rel='stylesheet' href='cards.css'/></head>
 <body>
 
-<h1>Flashcards!</h1>
-<h2 id="question"></h2>
+    <div class="text">
+        <h1>Flashcards!</h1>
+        <div class="flashcard">
+            <h2 id="question"></h2>
+            <h2 id="answer"></h2>
+        </div>
+    </div>
 
+    <div class="button" id="r">reveal answer</div>
+    <div class="button" id="c">correct</div>
+    <div class="button" id="i">incorrect</div>
 
-<h2 id="answer"></h2>
-
-<div class="button" id="r">reveal answer</div>
-<div class="button" id="c">correct</div>
-<div class="button" id="i">incorrect</div>
-
-<script src="numDeck.js"></script>
-<script src="view.js"></script>
-<script src="cardreader.js"></script>
-<link rel='stylesheet' href='cards.css?v=1.2'/>
+    <script src="numDeck.js"></script>
+    <script src="view.js"></script>
+    <script src="cardreader.js"></script>
 
 </body>
 </html>
