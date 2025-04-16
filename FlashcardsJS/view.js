@@ -16,6 +16,9 @@ class view{
         this.rButton = document.getElementById("r");
         this.rButton.addEventListener("click", () => this.reveal());
 
+        this.progress = document.getElementById("progress");
+
+
         this.resetPage();
     }
 
@@ -40,8 +43,9 @@ class view{
             this.question.innerText = "Finished!";
         }else{
             this.question.innerText = this.getQuestionByNumber(index);
-            this.answer.innerText = "";
         }
+        this.answer.innerText = "";
+        this.progress.innerText = this.deck.getRemainingCards() + "/" + this.deck.getTotalCards();
     }
 
     getAnswerByNumber(i){

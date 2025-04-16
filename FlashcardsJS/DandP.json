@@ -11,7 +11,7 @@
 "A todo list of jobs that need doing in scrum development"],
 
 ["What is product owner?",
-"A term in scrum development for the client or their representative"],
+"A term in scrum development for the client or their representative. They are part of the team."],
 
 ["In 'scrum' development process, what is the project owner?",
 "Also called the project manager. In additon to prioritizing developments and overseeing the overall vision, they are the first point of call with stakeholders"],
@@ -32,7 +32,7 @@
 "Two people divide into helm and tactician. The helm writes the code and the tactician thinks about the implications and spots areas for refactoring. Works if the pair can communicate well; teams should regularly swap even functional pairs to facilitate cross-team communication. The pair does not own this code and others can change it. All code is reviewed as it is written"],
 
 ["Previous studies have shown pair programming to have what effects on the overall development?",
-"Improves coder retention and code quality at the expense of a 15% increase in developer time costs. Slight increase in code output \n(77 lines per month for each individual, 175 for a single pair). Improves the technical skill of coders."],
+"Improves coder retention and code quality at the expense of a 15% increase in developer time costs. Slight increase in code output (77 lines per month for each individual, 175 for a single pair). Improves the technical skill of coders."],
 
 ["What is test-driven development?",
 "Rather than write code and then test it, think of the tests your code has to pass for you to be sure that it works. This is a wholesale shift in focus - think about what tests your code needs to pass"],
@@ -59,7 +59,7 @@
 "Do all five over and over again, iteratively, without committing to a final design in advance"],
 
 ["What are the four key principles of agile software development, as set out in the 2001 Utah manifesto?",
-"Individuals and interaction over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; responding to change over following a plan"],
+"(1) Individuals and interaction over processes and tools \n(2) working software over comprehensive documentation \n(3) customer collaboration over contract negotiation \n(4) responding to change over following a plan"],
 
 ["What should the delivery schedule be from client to developer in agile development?",
 "There should be regular demonstrations of working (if not complete) code. If possible, developers should talk to clients daily."],
@@ -74,7 +74,64 @@
 "(1) CONTRACTS - it's hard to draw up contracts, and this can be an unneccessary limitation if you are reasonably sure you know the requirements at the start \n(2) GREENFIELD VS BROWNFIELD - good for greenfield development, not brownfield \n(3) TEAM SIZE - works great for small co-located teams, harder for larger more geographically spread teams, \n(4) EMBODIED KNOWLEDGE - with less documentation, code is more vulnerable to coder absence, permanent or temporary"],
 
 ["What is the difference between green-field and brown-field development?",
-"It's an informal term derived from housing; green-field development is writing wholly new code while brown-field development is overhauling/maintaining legacy code"]
+"It's an informal term derived from housing; green-field development is writing wholly new code while brown-field development is overhauling/maintaining legacy code"],
+
+["START OF REQUIREMENTS ENGINEERING - what are system requirements?",
+"Requirements of your system when perceived from the outside as a black box. You gather these from your clients as part of requirements engineering, althougn ot always to the letter of what they say; their requirements may be unrealistic or not reflective of what they seem to want"],
+
+["System requirements include functional and non-functional requirements. What are the functional requirements?",
+"Requirements that say what a system is supposed to do, for example - what the system should do in particular sitautions or in response to particular inputs; services the system should provide, and things it should not do"],
+
+["System reuirements include a functional and non-functional requirements. What are the non-functional requirements?",
+"Constraints on the services offered by a system; these usually pertain to the whole system and not just individual features. Basically, this is stuff about the quality or nature of the services rather than the services itself."],
+
+["What are the five groups of people involved in requirements engineering?",
+"(1) customers, who may or may not know what they want; \n(2) business analysts (aka 'Requirements Engineer') which translates customer requirements into formal actionable requirements. \n(3) Sysadmins, who further advise the business analyist onto how new software fits into existing infrastructure. \n(4) Testers, who test that the software works as specified. \n(5) Developers."],
+
+["What are the three roles requirements serve?",
+"(1) Instructions \n(2) A communication mechanism with clients \n(3)Acceptance criteria - make sure they're precise and measurable"],
+
+["What distinguishes requirements engineering in agile from in other methods?",
+"There is no one single person who writes and owns requirements; they are continually revised by the team, including the product owner"],
+
+["What are the five stages of requirements analysis?",
+"(1) Identify stakeholders \n(2)Identify top level user needs, ie as NFRs or epics/initiatives \n(3) Break these down into individual stories. \n(4) Specify atomic requirements (ie, the formal specification). \n(5) Some UML"],
+
+["What are the three layers of the onion model of stakeholder categorization, radiating outwards (not including the product in the centre?",
+"(1) The system \n(2) The containing system \n(3) The wider environment"],
+
+["In the onion model of stakeholder categorization, what 3 roles are in the inner layer?",
+"(1) Normal Operator - the person who runs the software \n(2)Maintenance operator - fixes the software \n(3) Operataional support - sells the services of the software, or puts it to the use of the business's customers"],
+
+["In the onion model of stakeholder categorization, what 3 roles are in the middle layer?",
+"(1) Functional beneficiary - customers of the business using the software at no cost to them \n(2) Purchaser - users of the software who pay for it \n(3) Interfacing System Owner - users or businesses that interface the customer-side aspects of the software with other software"],
+
+["In the onion model of stakeholder categorization, what 8 roles are in the outer layer?",
+"(1) The public \n(2) Regulators \n(3) Negative stakeholders - ie, a man-in-the-middle attacker trying to misue banking software \n(4) Sponsor \n(5) Champion \n(6) Politicans \n(7) Functional beneficiaries \n(8) developer"],
+
+["How might you go about identifying stakeholders? Name three methods",
+"(1) Ask your clients \n(2) Review existing documentation \n(3) exercises like the Onion Model"],
+
+["What are surrogate stakeholders?",
+"Intangible stakeholders - for example, you'll want to get your software cleared with legal, HR, DEI (lol) teams in your client business."],
+
+["What are epics?",
+"In agile development, epics are high-level requirements that must be broken down into smaller tasks. They take multiple sprints."],
+
+["In agile development, there are three levels of requirements. A requirement at each level is broken down into several requirements from the level below. What are the levels?",
+"(1) Initiatives, likely involving multipe teams - 'improve accessibility' \n(2) Epics, likely involving multiple sprints - 'Enhance visual accessibilty' \n(3) User Stories, involving a single sprint - 'As a dyslexic person, I want text in comic sans so I can read more easily"],
+
+["What are user stories?",
+"It's a template - 'as a <type of user> I want to <some goal> for <some reason>'. Each one has acceptance criteria."],
+
+["What is the INVEST acronym for good user-stories?",
+"I - independent; you can put them into sprits one at a time and implement them independently of each other \nN - negotiable; open to change and discussion \nV - valuable; delivers clear value to the user \nE - estimatable; you can estimate how much time/effort it will take \nS - small; you can do it in a single two-week sprint\nT - testable"],
+
+["What four features should good user story acceptance crtieria have?",
+"(1) - easy to underestand and ambiguous \n(2) testable \n(3) measurable via a formal quantiative or qualitative method \n(4) Atomic, each criteria can be checked by itself"],
+
+["What is the Moscow Method",
+"A slightly warped acronym - Must have, could have, could have, won't have. It's a way of categorizing features of software you're developing, as part of agile development."]
 
 ]
 }

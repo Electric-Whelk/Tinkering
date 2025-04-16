@@ -2,6 +2,7 @@ class numDeck{
     constructor(count){
         this.deck = this.getDeck(count);
         this.shuffle();
+        this.totalCards = count; 
     }
 
     answer(correct){
@@ -11,6 +12,10 @@ class numDeck{
             this.shuffle();
         }
     }
+
+    getTotalCards(){return this.totalCards;}
+    
+    getRemainingCards(){return this.getTotalCards() - this.deck.length;}
 
     getDeck(inp){
         //BOOKMARK
