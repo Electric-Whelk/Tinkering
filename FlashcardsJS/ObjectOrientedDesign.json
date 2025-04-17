@@ -1,0 +1,102 @@
+{"QandA":
+[
+
+["What is the principle of encapsulation?",
+"Data should be hidden within an object and only exposed via permitted methods."],
+
+["Why is encapsulation beneficial in OOP?",
+"Allows control over the methods used to access or change the methods, which (in addition to facilitating design) protectes data integrity, ie by making the setter function password protected"],
+
+["What is the principle of abstraction?",
+"Hide, as much as possible, the complexity of the class/object. Couple loosely: objects interact via abstract interfaces."],
+
+["What is the principle of inheritance?",
+"Subclasses have the same properties and behaviour of superclasses"],
+
+["What is the principle of polymorphism?",
+"Behaviour of a class belongs to the sub-classed object; behaviour is generic at compile-time and becomes specific at run-time."],
+
+["What is the principle of composition?",
+"A less formal OOP principle about building an object out of other objects, in which you build incrementally. In UML, composition is represented like aggregation, but with the diamonds being grey, and implies that the part cannot usefully exist withuot the whole."],
+
+["what are the four-and-a-half principles of object oriented programming?",
+"(1) Encapsulation (2) abstraction (3) Inheritance (4) Polymorphism (4.5) Composition"],
+
+["What is a class diagram?",
+"A UML construct that provides a general system overview, with arrows that connect associated classes"],
+
+["In a UML class diagram, what is the format for representing a class?",
+"Three rows. Top is name, second is attributs and third is behaviour (methods)."],
+
+["In a UML class diagram, what do the following three symbols represnet and where would you find them? + # -",
+"+ is public, # is protected, - is private. You would find them next to each attribute and behaviour entry. "],
+
+["What is protected data in oop?",
+"Only subclasses of the class or packages can see the data."],
+
+["What is the format for a class attribute in a UML class diagram?",
+"[visability] name [: type][multiplicity][=value][{property}]. Multiplicity is how many of a thing the class will have and, if left out, is assumed to be one. Properties are things like readonly. Static attributes appear underlined."],
+
+["What is the format for a class operation (method) in a UML class diagram?",
+"[visibility] name ([parameter list]) : [{property}]. Underlined if static. for example, + toString(array) : string"],
+
+["What is grammatical parse?",
+"A way to start OOP'ing after requirements engineering. Look through your requirements engineering stuff and pull out all unique, non-synonimous nouns. Some will be too vague, but most will be classes."],
+
+["What is association in UML?",
+"Two classes are associated if they are related, and a line is drawn on the UML diagram between them. This line should reflect multiplicity: an appointment has one patient, a patient has one doctor, a doctor has many patients."],
+
+["an unspecified number of",
+"just an undecorated line"],
+
+["zero or more",
+"*, or technically 0..*"],
+
+["exactly x",
+"x"],
+
+["x or more",
+"x..*"],
+
+["between x and y",
+"x..y"],
+
+["z, or between x and y",
+"z, x..y"],
+
+["What is an aggregation in UML?",
+"Represented by a line from y to x with a diamond on the x side, it means 'y is a part of x'. x is the whole and y is the part"],
+
+["what is shared versus non shared aggregation?",
+"In shared aggregation, one part can belong to multiple wholes"],
+
+["In UML, what is navigability?",
+"Represented by an arrow between classes and suggests that it is possible to navigate from an associating class to the target class using the association"],
+
+["In UML, what is generalization?",
+"This is a relationsip where one class shares the properties and behaviours of another class. Inheritance is an example of generalization. It is represented by big white arrows, like fully shaped like a triangle, not just with two little wings"],
+
+["What is the difference between abstract and concrete classes?",
+"Concrete can have objects."],
+
+["What is the difference between generalization and aggregation",
+"Generalization is 'is a kind of', aggregation is 'is a part of'; generalization relates to inheritance while aggregation relates to composition"],
+
+["What is a UML sequence diagram?",
+"A way of representing an interaction in software over time. Rank the classes to be involved left to right, and draw arrows labelling a method call from one to the other, with an arrow below it in the reverse direction for when the information is returned. Time is on the Y axis, with arrows further down representing a later passage of data to a higher up arrow. The 'time lines' extending downward from the object disappear at the time the individual object stops existing, and forms a fatter square for the period in which the object is involved with the interaction."],
+
+["What is synchronicity and how is it depicted on a UML sequence diagram?",
+"Synchronous arrows are triangle-tipped, asynchronous are wing-tipped; if it is asychronous, the object can do something between sending the message (the method call) and getting it back."],
+
+["In a sequence diagram, how would you represent an object calling its own method without involving anothr object?",
+"From the fat part of the line, a labelled arrow emerges right and then loops back around to the same thing"],
+
+
+["How are conditions represented in UML sequence diagrams?",
+"An interaction fram, albelled alt, divided into rows for condition 1, condition 2, etc; the interactions within each row happen if the respected condition is true"],
+
+["How are loops represented in UML seuqnece diagrams?",
+"An interaction frame, labelled loop with the for each condition in the label, surrounding all things that loop"]
+
+]
+}
