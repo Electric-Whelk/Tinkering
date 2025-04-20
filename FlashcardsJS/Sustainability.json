@@ -1,0 +1,121 @@
+{"QandA":
+[
+
+["When you design a software solution, what 3 sustainability considerations do you start with?",
+"(1) What are you designing? \n(2) Where do you rdaw the boundry of what you are developing \n(3) What is the purpose of what you're developing?"],
+
+["What four questions should you ask when scoping a project?",
+"(1) what am I designing? \n(2) Who am I designing for (a facebook user or a data broker?) \n(3) How long will my software be used for? \n(4) at what cost - ROI, social/environmental impact"],
+
+["What is Ruzanna's vibe here?",
+"That when you design something, you have an opportunity to influence how it will be used"],
+
+["What are the two aspects of software's relationship with sustainabiltity?",
+"(1) Software's own sustainability impact (carbon impact of software), \n(2) How does ICT enable other things to happen? (IE, effect of online consultations on traffic)"],
+
+["Tell me about alternatives. Why is that an important word in this lecture?",
+"Whenever you design something, you think about what the alternative is, if you did it differently or if people used something else. You can structure these into a resource tree, where for each resource you look at an alternate, greener approach."],
+
+["what is a resource tree?",
+"A representation of all embodied resources in a single product or action. For each one, you can often find a green alternative. They go down in layers: an iPhone requires a battery which requires lithium."],
+
+["What is the induction effect?",
+"the way a technological change creates new demand. Cloud Computing, for example, has led to more storage use."],
+
+["What is the obsolecense effect?",
+"For the purposes of this course, it's planned obsolecense. We know from UE that this can include stylistic obsolecense."],
+
+["What is the rebound effect?",
+"Efficiency increases makes the price of something (or resource/time investment in something) fall and drives increased use. Traffic efficiency improvements often incur this."],
+
+["What are risks in the context of this course?",
+"Unexpected negative effects. An example is 5G, which has led to an unexpected increase in rare metals usage, which has had loads of knock on effects not known at the start. AI is also generally a risk hotbed."],
+
+["What is de-skilling?",
+"An example of a negative outcome that software is prone to. AI is a great de-skilling example."],
+
+["What is optimization in a sustainability context, and what is  its relationship to software?",
+"Optimization is doing more with few resources. Software facilitates this. For example, a colleague of Ruzanna's has been developing a plant-watering system based on humidity detection, which minimizes waste water"],
+
+["What is substitution in a sustainability context, and what is  its relationship to software?",
+"Replacement of an inefficient technology or process with a more environmentally efficient one. MP3s are better for the environment than CDs."],
+
+["What is behaviour change in a sustainability context, and what is  its relationship to software?",
+"Software changes how we produce and consume things."],
+
+["What is a production-side example of behavioural change facilitated by software?",
+"For example, a lot of production technologies substitute fossil fuels - in Orkney, for example, there is a project to use wind energy to generate hydrogen from water, as Orkney has a lot of wind. The local community is encouraged to more efficiently consume via local hydrogen generation (as hydrogen generation is very electricity consumptive). This is overseen by software."],
+
+["What is a consumption-side example of behavioural change faciliated by software?",
+"Well it's horseshit, but software that lets people scan to see the carbon footprint of relative products."],
+
+["What is the Karlskrona manifesto?",
+"It states we as Software designers are responsible for the long term impacts of design and should consider the world that is being shaped by it. Importantly, it anticipates resistance from clients trying to specify what they want and thus deny the agency of the programmer; it is the responsibility of programmers to present an alterative. It expects the client to choose the sustainable alternative if offered because sustainability brings efficiency"],
+
+["What are the five dimensions of sustainability in a software engineering context?",
+"Social, individual, technical, economic, environmental"],
+
+["What was the software practitioner's review?",
+"Ran in 2023/2024 by Bristol. it polled 178 developers for how requently they consider sustainabilty and the broader software development lifecycle. None did it often; half never considered. Engineers said they did not do it because their stakeholders did not as them, and it sat outside functionality concerns; they did not know how to integrate it into backlog planning"],
+
+["Why are requirements the key step in incorporating sustainability into your program?",
+"You have to support your clients in understanding this and the impact it will have on them to not consider it."],
+
+["What is SusAf?",
+"sustainabilitly awareness framework, a question-based framework for bringing your stakeholders/clients into a discussion about sustainability. It structures them according to the five dimensions of sustainability, with five questions for each element based on the most common recurring topics."],
+
+["What are the four steps of SusAf?",
+"(1) Warm up - introduce the participants and product. \n(2) Capture - collect and categorise potential effects of the product \n(3) Analysis - build chains fo effects to discover causal relationships. \n(4) Syntehsis - discuss opportunities and risks, and develop corresponding actions."],
+
+["What happens in the warm-up stage of SusAf?",
+"Listing the known sustainability effects in a Sustainable Development Goals (SDG) or Corporate Social Responsibility (CSR) framework."],
+
+["What happens in the capture phase of SusAf?",
+"Each of the 5 aspects of the 5 dimensions are put as questions (\"how will the product interact with this\"); write down negtive effects on orange cards and positive effects on blue ones. Then prsent all ideas to the teams, clustered if possible. Discuss them and group them on a chart where the x axis goes unlikely to likely and the y axis goes low impact to high."],
+
+["What are the 5 aspects of the social dimension of sustainability?",
+"(1) Sense f community - how does the product affect a person's sense of belonging to an area/group/organization? \n(2) Trust - how does the product affect the trust between users and owners of the system? \n(3) Inclusiveness/Diversity - impact of the product of interpersonal perceptions and on people of marginalized backgrounds. \n(4) Equity - how does the system impact how people may be treated differently from each other in terms of opportunity of equality and of outcome; does it impact impartiality? \n(5) Participation and communication - how does the prdouct affect how people impart and/or interchange thoughts, opinions and information?"],
+
+["What are the 5 aspects of the individual dimension of sustainability?",
+"(1) Health, physical and emotional \n(2) Lifelong learning - how does it affect people's competencies. \n(3) Privacy - freedom from intrusion/disturbance. \n(4) Safety - protection from risk or injury \n(5) Free will - the capacity of an individual to make decisions on their own."],
+
+["What are the 5 aspects of the Environmental dimension of sustainability?",
+"(1) Material and resources \n(2) Waste and pollution \n(3) Biodiversity \n(4) Energy use \n(5) Logistics - affects on need and distance."],
+
+["What are the 5 aspects of the Economic dimension of sustainability?",
+"(1) Value - the usefulness monetariliy of your product \n(2) Customer relationship management - how does it affect the relationship betweenbusines and customer \n(3) Supply Chain - how does it affect the supply chain of the owner in the context of the current financial situation \n(4) Governance - how does it change how and by whom decisions are made among the actors in an organization or society \n(5) Innovation - does it affect research and development?"],
+
+["What are the 5 aspects of the Technical dimension of sustainability?",
+"(1) Maintainability - does it affect what is require from the maintaners of the system? How does it affect the maintainance of other systems? Both are important! \n(2) Usability - what knowledge and physical capabilties are required to use the system? \n(3) Adaptability - can the system adapt to changes or be used in another context? \n(4) security - does it impact freedom from or potential against attacks? How could it open a gateway for attackers? \n(5) Scalability - how can it gracefully handle growing amounts of work?"],
+
+["What are the three concentric layers of a sustainability diagram, radiating outwards?", 
+"(1) Immediate - relating to production, use, operation and disposal. \n(2) Enabling - changes induced by the system \n(3) Structural - changes emeging from the ongoign operation and use of the system, as its usage accumulates with large numbers of users."],
+
+["Describe a SusAD ",
+"Five segments corresponding to the sustainability dimensions, three concentric layers, place an effect in a quadrant at a layer corresponding to its lefel of effect, draw arrows between these effects to show the order the way that one causes another (\"Chains of effects\")"],
+
+["What happens in the analysis phase of SusAF?",
+"Put your postits on a SusAD."],
+
+["What happens in the synthesis phase of SusAF?",
+"Identify opportunities and threats and determine actions for each. "],
+
+["What two areas of continued collaboration do SusAF offer?",
+"(1) Interviews on the state of practice as a team of practitioners \n(2) A detailed analytic workshop providing information about the sustainability of your IT product and resulting opportunities/risks"],
+
+["On your reading of the Karlskrona manifesto, you summarized its proposals down to six statements about sustainability. What are they?",
+"Sustainability is: \n(1) Systemic - always transdisciplinary and must be placed within the wider context of software/system use \n(2) Multidimensional \n(3) Is a primary concern in system development, independent of the specific purpose of that system \n(4) Requires action of multiple levels \n(4) Necessitates system visibility to enable participation and informed decision making. \n(5) Requires long-term thinking, but can also be achieved without sacrificing current needs."],
+
+["What is a wicked problem, and how does this relate to the Karlskrona manifesto's perspective on sustainability?",
+"A problem lacking a single solution, and/or one of sufficient social complexity that there is no determinable stopping point, and/or one whose solution creates or reveals other problems. The term \"wicked\" refers to the mischievous intractibiilty of these problems in the face of solutions; they seem to morph and outsmart the solver. The Karlskrona manifesto identifies sustainability as a wicked problem, and highlights in particular that it lacks a single solution, and that related problems lack a distinct completion point at which success can be measured in accordance with predetermined criteria."],
+
+["I've identified the following points which, although not facts to memorize, are indicative of the level at which we are expected to know this stuff. What are the things?",
+"(1) Ruzanna was involved both in the Karlskrona manifesto and in the Software practitioners review, so probably shares their views \n(2) Sustainabilty concerns can and should feature in user stories, and/or be added to product backlogs"],
+
+["What is software architecture?",
+"Fundamental organization of a software system as embodied in its components, their interrelationships, their relationships to the environment, and the princples guiding its design and evolution."],
+
+["Name five issues that impact architectural decisions",
+"(1) Non-functional requirements (what energy does it use, how does it handle privacy, etc) \n(2) Compatibility with other softawre including sustainability grants \n(3) Number of users, worldwide \n(4) Longevity of the product \n(5) How will it impact the use of other software/services?"]
+]
+}

@@ -64,10 +64,10 @@
 ["What should the delivery schedule be from client to developer in agile development?",
 "There should be regular demonstrations of working (if not complete) code. If possible, developers should talk to clients daily."],
 
-["Agile development runs on twelve principles, five of which are about meeting client needs and six are about meeting coders. What are the client-side principles?",
+["Agile development runs on twelve principles, five of which are about meeting client needs and seven are about meeting coders. What are the client-side principles?",
 "(1) Highest priority is satisfying the client through good work delivered to time, \n(2) Embrace change, even late in the cycle, \n(3) Collaborate daily with the client, \n(4) use face-to-face communication, \n(5) frequently deliver/demonstrate working software"],
 
-["Agile development runs on twelve principles, seven of which are about meeting client needs and six are about meeting coders. What are the developer-side principles?",
+["Agile development runs on twelve principles, five of which are about meeting client needs and seven are about meeting coders. What are the developer-side principles?",
 "(1) Work at a steady, sustainable pace without heroic efforts, \n(2) Rely on self-organizing teams, \n(3) Teams reflect regularly on their performance, \n(4) Measure progress in quantity of working code produced, \n(5) continuous attention to technical excellence, \n(6) Minimize unneccessary work, \n(7) Build teams around motivated individuals."],
 
 ["Name four problems with agile",

@@ -9,7 +9,13 @@ class numDeck{
         if(correct){
             this.deck.shift();
         }else{
-            this.shuffle();
+            let t = this.topCard();
+            let i = 0;
+            while(this.topCard() === t && i < 20){
+                console.log("shuffling...")
+                this.shuffle();
+                i++
+            }
         }
     }
 
@@ -23,13 +29,11 @@ class numDeck{
         for(let i = 0; i < inp; i++){
             outp.push([i]);
         }
-        console.log("full deck: " + outp);
         return outp;
     }
 
     randomInt(max){
         let outp = Math.round(Math.random() * max);
-        console.log("Random int: " + outp);
         return outp;
     }
 
@@ -53,6 +57,5 @@ class numDeck{
             this.deck[i] = this.deck[j];
             this.deck[j] = tmp;
         }
-        console.log("Deck after shuffling: " + this.deck);
     }
 }

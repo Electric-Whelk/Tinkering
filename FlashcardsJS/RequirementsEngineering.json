@@ -1,7 +1,7 @@
 {"QandA":
 [
     
-["START OF REQUIREMENTS ENGINEERING - what are system requirements?",
+["What are system requirements?",
 "Requirements of your system when perceived from the outside as a black box. You gather these from your clients as part of requirements engineering, althougn ot always to the letter of what they say; their requirements may be unrealistic or not reflective of what they seem to want"],
 
 ["System requirements include functional and non-functional requirements. What are the functional requirements?",
@@ -31,8 +31,8 @@
 ["In the onion model of stakeholder categorization, what 3 roles are in the middle layer?",
 "(1) Functional beneficiary - customers of the business using the software at no cost to them \n(2) Purchaser - users of the software who pay for it \n(3) Interfacing System Owner - users or businesses that interface the customer-side aspects of the software with other software"],
 
-["In the onion model of stakeholder categorization, what 8 roles are in the outer layer?",
-"(1) The public \n(2) Regulators \n(3) Negative stakeholders - ie, a man-in-the-middle attacker trying to misue banking software \n(4) Sponsor \n(5) Champion \n(6) Politicans \n(7) Functional beneficiaries \n(8) developer"],
+["In the onion model of stakeholder categorization, name 3 potential roles in the outer layer",
+"(1) The public \n(2) Regulators \n(3) Negative stakeholders - ie, a man-in-the-middle attacker trying to misue banking software"],
 
 ["How might you go about identifying stakeholders? Name three methods",
 "(1) Ask your clients \n(2) Review existing documentation \n(3) exercises like the Onion Model"],
@@ -53,7 +53,7 @@
 "I - independent; you can put them into sprits one at a time and implement them independently of each other \nN - negotiable; open to change and discussion \nV - valuable; delivers clear value to the user \nE - estimatable; you can estimate how much time/effort it will take \nS - small; you can do it in a single two-week sprint\nT - testable"],
 
 ["What four features should good user story acceptance crtieria have?",
-"(1) - easy to underestand and ambiguous \n(2) testable \n(3) measurable via a formal quantiative or qualitative method \n(4) Atomic, each criteria can be checked by itself"],
+"(1) easy to underestand and unambiguous \n(2) testable \n(3) measurable via a formal quantiative or qualitative method \n(4) Atomic, each criteria can be checked by itself"],
 
 ["What is the Moscow Method",
 "A slightly warped acronym - Must have, could have, could have, won't have. It's a way of categorizing features of software you're developing, as part of agile development."]
