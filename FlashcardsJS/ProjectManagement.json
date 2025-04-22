@@ -1,0 +1,65 @@
+{"QandA":
+[
+
+["During the lifecylce of agile development, what respectively is owned by the product owner and the scrum master??",
+"Product owner looks after epics, user stories and backlog grooming; scrum master looks after team management"],
+
+["What is backlog grooming?",
+"AKA backlog maintenance; editing the backlog as things become irrelevant or emerge."],
+
+["What does it mean that agile is an incremental delivery method?",
+"New features are continuously integrated with the existing product - check that it is consistent and has not introduced problems, and delives what the sprint was supposed to deliver"],
+
+["Why is software difficult to measure?", 
+"Software standards, as set out in ISO/IEC 25010, exalt software according to individually difficult to measure criteria, like reliability and accessibility; it also has a huge number of dimensions, too many to practically test or distill down to any kind of singular grade"],
+
+["Why is software complexity important for quality measurement?",
+"Software complexity hugely impacts a range of quality metrics as set out in ISO/IEC 25010. This makes it a very popular metric."],
+
+["Why is software size important for quality measurement?",
+"Heavily linked to complexity and similarly impacts a wide range of quality metrics, although size can be misleading - relatedly, it can give wrong impressions about who has been producing the most relevant code"],
+
+["What are the two types of testing?",
+"(1) White box - where we have easy access to all development artefacts (including, importantly, what language the code was written in, as different langauges embody a different amount of work and complexity per line) \n(2) Black Box"],
+
+["What is cyclomatic complexity?",
+"A measure of the number of independent paths through the code (ie, any path that creates one new statement/condition). Expressed as v(g) = e - n + 2p, where e is the number of edges, n is the number of nodes and p is the number of procedures (usually 1)"],
+
+["How does cyclomatic complexity relate to testing?",
+"You need to have a test for every route through the program, and the cyclomatic complexity calculation shows the number of routes"],
+
+["What are black box complexity metrics?",
+"Ways to test the complexity of black-box software."],
+
+["How do we schedule for a sprint in agile?",
+"We use story points. We pick out not more than ten for a user story, and break it into several stories or upgrade it to an epic if it takes more than ten."],
+
+["What is T-shirt size in agile?",
+"T-shirt size is just categorizing into small, medium and large."],
+
+["What is the wisdom of the crowds principle?",
+"The assumption that a group estimation will be more reliable than an individual estimation"],
+
+["what is planning poker?",
+"An exercise where everyone in the team gets together with (ideally, because it maps into the way difficulty scales) a Fibonacci numbered set of cards, where for a given task people give a number, revealing at the same time, showing their estimation of the difficulty in terms of Story Points. It's important, as with all estimation exercises, to time-limit how long you spend on this; if there isn't a consensus you can find difference-splitting things like taking averages."],
+
+["What is team velocity?",
+"An average of the number of story points that you achieve within a sprint"],
+
+["What is a burn chart?",
+"Let's say you have a one-week sprint, during which you'll do 30 story points. So that gives you a progress line: 6 per weekday."],
+
+["What are sprint review and sprint retrospective?",
+"Activities at the end of a sprint that inform the next sprint; the review is focussed on stakeholders and the retrospective on developers"],
+
+["What happens during a sprint review?",
+"Discuss what happened in the sprint, demonstrate the increment, take stakeholder feedback, adjust priorities accordingly"],
+
+["What happens during a sprint retrospective?",
+"Discuss what went well and badly during the sprint, identify challenges and blockers, adjust how to improve collaboration going forward"],
+
+["What is time-boxing",
+"Time limiting! Very ipmortant for exercises like planning poker, sprint reviews and sprint retrospectives, which are important but shouldn't overtake coding time"]
+
+]
+}

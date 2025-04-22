@@ -1,0 +1,86 @@
+{"QandA":
+[
+    
+["What are Bruce Tognazzini's thoughts on iterative design?",
+"That user testing needs to be integrated into development in an iterative fashion"],
+
+["What is the think-aloud evaluation technique",
+"A user uses your software and just says aloud what they're thinking"],
+
+["What are the four benefits of think-aloud evaluation?",
+"(1) It's cheap (2) It's easy (2) It provides insight into peoples thought processes (3) It can be done with a small number of participants (4) It fits in well into a lot of existing development processes"],
+
+["What are the drawbacks of think aloud?",
+"(1) It's difficult for people to verbalise as they do things (2) - \"social desireability bias\" - people saying what they think you want to hear"],
+
+["How do you plan a think-aloud evaluation?",
+"(1) decide what questions you want your study to answer (2) Decide how many participants you're going to have (3) Assign roles within your team - facilitator and observer"],
+
+["What does the facilitator do in a think aloud?",
+"Explains the rules and reassures the participant to lead them away from social desirability bias. They can advise the user but only after they have been stuck for a while. If the participant goes silent, the facilitator prompts them to say what they are thinking"],
+
+["How do you analyse the output of a think-aloud evaluation?", 
+"Identify problems, count the number of times that a participant faced a given problem, and note down features that the users wanted"],
+
+["what is the key difference between heuristic and think-aloud evaluation?",
+"Think-aloud is carried out by prospective users, while herustic is carried out by experts (who may or may not be developers)."],
+
+["What is an inspection method?",
+"An evaluation method in which you inspect a design to find usability problems - heuristic evaluation is an example of it."],
+
+["What are usability principles?",
+"Also known as usability heuristics, they're a set of... well, heuristics according to which software can be checked."],
+
+["What are the advantages of heuristic evaluation?",
+"(1) Cheap to run, needing only a few experts and no specialist labs (2) Easy to carry out, AlTHOUGH you will need to become familiar with usability principles (3) Analysis is done during the evaluation, so there is no need to analyse afterwards (4) Fits in with most software development methodologies (5) can be used early and late in a development process. (6) Studies showed a cost-effectiveness ratio of 1:48, which is very impressive"],
+
+["what are the 4 drawbacks of heuristic evaluation?",
+"(1) Prone to overlooking important issues that don't fit in with heuristic criteria (2) Might identify false issues (3) Many trivial issues are often identified (4) As the evaluators carrying it out are experts, it is prone to bias"],
+
+["What are nielsen's heuristics?",
+"A widely used set of ten heuristics. \n(1) Visibility of system status \n(2) Match between system and real world \n(3) User control and freedom \n(4) Consistency and standards \n(5) Error prevention \n(6) recognition rather than recall \n(7) Flexibility and efficiency of use \n(8) Aesthetic and minimalist design \n(9) Help users recognise/diagnose/recover from errors \n(10) help and documentation"],
+
+["What is the heuristic of visibility of system status?",
+"To do with feedback to the user - does the design clearly communicate its state? If you choose an invalid passwordd does it just say error, does it say password invalid, does it offer suggestions, or does it do that all with red yellow and green?"],
+
+["What is the heuristic of match between system and real world?",
+"Conventions - cooking hobs are an example here. If you have four hobs in a square, put the knobs in a square. If they're in a row, put the knobs in a row. Doors are another example: the convention is that push is a plate and pull is a handle. good software follows existing conventions, in layout and in language - this encompasses use of familiar, non-programmatic language in error messages. A great software example is that iTunes follows a library layout"],
+
+["heuristic of user control and freedom?",
+"AKA emergency exits! how eaesy and intuitive is it for the user to step back in a process? Undo, back buttons, and clear navigation. Breadcrumbs are a visual part of this; breadcrumbs are the things at the software where you see what page in a process you're on."],
+
+["heuristic of consistency and standards?",
+"Do you follow industry conventions, and do you use a consistent visual design throughout your software? Are you consistent with similar software elewhere? Gmail, for example, followed the structure of previous email clients."],
+
+["heuristic of error prevention",
+"Design constraints that reduce the chance of an error preventing, or \"are you sure\" flags in response to behaviour that looks like it could be an error - things like how Yammer disables the update button after posting to prevent you for posting the same thing twice. You can also de-highlight buttons that are likely to be used in error"],
+
+["heuristic of recognition over recall?",
+"It's better for users to recognise how somethign works from what they see of it than remembering how it works from past experience or learning. IDE autocomplet is an example of this, but a really clear example is fonts, which in word processors are written in their own font in selection screens, so you don't need to remember what it looks like."],
+
+["heuristic of flexibility and efficiency of use?",
+"Covers accelerators like shortcuts but also customizability, for people to make shortcuts for actions they perform regularly. Accelerators should be unseen and subtle to avoid confusing novice users but should be present to speed up interactiosn for experienced users. It's also useful to have resources highlighting the available accelerators"],
+
+["heuristic of aesthetic and minimalist design?",
+"Design focuses on the essentials of the software. Any extra information adds complexity and makes it difficult for a user to know what to do, so should be thought of as an expensive resource."],
+
+["As part of the heuristic of aesthetic and minimalist design, what are some recommended layout/visual techniques (name 4)",
+"(1) Contrast - embolden some text to make it more salient (2) repetition - of colours; use repeated text colours to match different media types (3) Alignment - align strongly (4) Proximity, using certain dividers to separate the tags from the accompanying search items"],
+
+["heuristic of helping users design, diagnose and recover from errors?",
+"Use traditional error message visuals with common language, offering an immediately helpful solution. humor can be beneficial alongside these things."],
+
+["heuristic of help and documentation?",
+"Ideally you will want software to be usable without reading the manual, but that's rarely possible, so you want information to be easily findable by users. This can include thigns like contextual tips and embedded videos."],
+
+["How many evaluators do you need for your heuristic evaluation?",
+"According to Nielsen's findings, as you increase the number of evaluators, you identify more usability problems up to a certain point, after which you incur diminishng returns. Empirical evidence shows 3-5 evaluators is where you start to see that diminishment, so while more is beneficial, the ROI goes down."],
+
+["What are the roles and equipment setup of a heuristic evaluation?",
+"Each of the evaluators does a heuristic evaluation of the interface alone (either recording their comments or being recorded by a faciliator). the facilitator can access evaluators questions, unlike in more traditional (think-aloud) user testing. Heuristic evaluation can also be done on paper prototypes. "],
+
+["How would you go about running a heuristic evaluation?", 
+"Over a 1-2 hour session (potentially longer for more complex software), the evaluator goes through the interface several times, focussing on more specific elements as they become better acquainted with the system. Evaluators can be given scenarios that describe typical usage. Evaluators producea  list of usability problems: the given heuristic and the particular design feature that violated it"]
+
+]
+}

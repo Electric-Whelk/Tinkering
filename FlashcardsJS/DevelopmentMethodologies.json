@@ -13,11 +13,11 @@
 ["What is product owner?",
 "A term in scrum development for the client or their representative. They are part of the team."],
 
-["In 'scrum' development process, what is the project owner?",
+["CHECK RUZANNA AGREES In 'scrum' development process, what is the project owner?",
 "Also called the project manager. In additon to prioritizing developments and overseeing the overall vision, they are the first point of call with stakeholders"],
 
 ["In 'scrum' development process, who is the scrum master?",
-"Also called the delivery manager. They oversee the team and make sure it's working smoothly. This can sometimes be a rotating role through the cycle of development, and may be irrelevant in a high performing team"],
+"Also called the delivery manager. They oversee the team and make sure it's working smoothly. This can sometimes be a rotating role through the cycle of development, and may be irrelevant in a high performing team; they also oversee sprints and run reviews and retrospects of them, while overseeing standups"],
 
 ["What is extreme development?",
 "An agile software development methodology used to prevent coders from writing complex code that they alone are responsible for in heroic bursts"],
@@ -29,10 +29,10 @@
 "(1) Pair programming, \n(2) Test Driven Coding, where you build the testing process into the day-to-day codewriting rather than leaving testing to the end, \n(3) Small releases - create a minimum viable product and then add small features, \n(4) Continuous integration - keep integrating features one by one and make sure each works, \n(5) refactoring - restructure when things get messy"],
 
 ["What is pair programming?",
-"Two people divide into helm and tactician. The helm writes the code and the tactician thinks about the implications and spots areas for refactoring. Works if the pair can communicate well; teams should regularly swap even functional pairs to facilitate cross-team communication. The pair does not own this code and others can change it. All code is reviewed as it is written"],
+"Two people divide into helm and tactician. The helm writes the code and the tactician thinks about the implications and spots areas for refactoring. Works if the pair can communicate well; teams should regularly swap even functional pairs to facilitate cross-team communication. The pair does not own this code and others can change it. All code is reviewed as it is written, and it is expected that the code benefits from two sets of eyes and two perspectives."],
 
 ["Previous studies have shown pair programming to have what effects on the overall development?",
-"Improves coder retention and code quality at the expense of a 15% increase in developer time costs. Slight increase in code output (77 lines per month for each individual, 175 for a single pair). Improves the technical skill of coders."],
+"Improves coder retention and code quality at the expense of a 15% increase in developer time costs. Slight increase in code output (77 lines per month for each individual, 175 for a single pair). Improves the technical skill of coders; Ruzanna (not citing a source) added later that it also addresses's agile's susceptibility to team member absence, as code has two co-writers"],
 
 ["What is test-driven development?",
 "Rather than write code and then test it, think of the tests your code has to pass for you to be sure that it works. This is a wholesale shift in focus - think about what tests your code needs to pass"],
@@ -41,7 +41,7 @@
 "Since you are writing code to pass tests, you have no code that is not tested. It also helps debugging and documentation, by highlighting individual areas of error"],
 
 ["What is Kanban?",
-"Emerges from the japanese concept of just-in-time manufacturing, where you don't store components you might need in the future but instead bring them to the production line just in time. Kanban is a way to manage and schedule this by dividing the todo list into to do, doing, and done (sometimes there are extra columns as needed, ie - backlog, being verified, awaiting integration."],
+"Emerges from the japanese concept of just-in-time manufacturing, where you don't store components you might need in the future but instead bring them to the production line just in time. Kanban is a way to manage and schedule this by dividing the todo list into to do, doing, and done (sometimes there are extra columns as needed, ie - backlog, being verified, awaiting integration. This delineates the work to be done and also provides transparency"],
 
 ["What are swimlanes?",
 "A feature of more complex Kanban boards - horizontal lines that cut across the columns, that usually divide the board up into work for seperate teams or subteams."],

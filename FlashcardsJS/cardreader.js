@@ -6,8 +6,10 @@ let dev = "DevelopmentMethodologies";
 let ood = "ObjectOrientedDesign";
 let req = "RequirementsEngineering"
 let sus = "Sustainability"
+let pro = "ProjectManagement"
+let qual = "SoftwareQualityAndTesting"
 
-let arr = [dev, ood, req, sus];
+let arr = [dev, ood, req, sus, pro, qual];
 
 for(let str of arr){
     console.log(str)

@@ -7,14 +7,8 @@
 ["What four questions should you ask when scoping a project?",
 "(1) what am I designing? \n(2) Who am I designing for (a facebook user or a data broker?) \n(3) How long will my software be used for? \n(4) at what cost - ROI, social/environmental impact"],
 
-["What is Ruzanna's vibe here?",
-"That when you design something, you have an opportunity to influence how it will be used"],
-
 ["What are the two aspects of software's relationship with sustainabiltity?",
 "(1) Software's own sustainability impact (carbon impact of software), \n(2) How does ICT enable other things to happen? (IE, effect of online consultations on traffic)"],
-
-["Tell me about alternatives. Why is that an important word in this lecture?",
-"Whenever you design something, you think about what the alternative is, if you did it differently or if people used something else. You can structure these into a resource tree, where for each resource you look at an alternate, greener approach."],
 
 ["what is a resource tree?",
 "A representation of all embodied resources in a single product or action. For each one, you can often find a green alternative. They go down in layers: an iPhone requires a battery which requires lithium."],

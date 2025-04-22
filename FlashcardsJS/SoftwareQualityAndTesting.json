@@ -1,0 +1,49 @@
+{"QandA":
+[
+
+["Why is software qualtiy relevant? Give five reasons:",
+"(1) Affects reputation of your organization (2) Badly written code is harder to maintain and therefore costlier to operate (3) For some domains you need to meet quality standards before your code is accepted for use; this includes sectors like aviation and medical. (4) Legal requirements (5) Moral and ethical implications. "],
+
+["What are the three dimensions of software quality?",
+"(1) Subjective \"fitness for use\" as perceived by an individual user (eg, aesthetics of GUI, missing functionality) (2) Objective \"conformance to requirements\" measurable as a property of the product (eg detailed documentation, number of bugs, compliance with regulations) (3) Practical - what does it mean to your team and your clients?"],
+
+["What are the four things you should do to ensure coding quality?",
+"(1) Use a standard development process - making sure that everyone develops in a way that everyone understands what everyone else is doing means fewer mistakes or bad design choices as the code goes along (2) Use a coding standard; consistent variable names can make things a lot easier to understand (3) Define and monitor metrics (defect and complexity metrics) (4) Identify and remove defects "],
+
+["What is \"system under test\"",
+"During software testing, it is the formal term for the subject. That can be the software system as a whole or it can be individual functional parts of it."],
+
+["What is yuor specification in a testing context?",
+"It's... well, a specification. what's important i that your test cases try to cover it, your system under test implements it and your oracle approximates it."],
+
+["what do your test cases have to do?",
+"execute your system-under test, try to cover your specification"],
+
+["What is your oracle, in software testing?",
+"The oracle is a mechanism - a person or a set of assertions - that observes the system under test, approximates the specification, and checks that the test cases properly cover the specification."],
+
+["What are software \"internals\" to which white box testing has access? How does it use them?",
+"The internals are the source code, the runtime state, and the executions, which a white box tester can keep track of. White box testing uses code to measure coverage, and create tests that maximize coverage."],
+
+["What is statement coverage?",
+"In white box testing, you say coverage is equal to the number of statements executed/total statements. This means that test inputs should, collevtively, have exeutd each statement. This detects if a statement always exhibits a fault when executed."],
+
+["What is branch coverage?",
+"Branch coverage is a white-box testign coverage model considered more comprehensive than statement coverage. It is estimated as branches executed/total branches - test inputs should have collectively implemented each branch"],
+
+["What is the limitation of coverage metrics?",
+"Coverage is not strongly correalted with test suite effectiveness; often you can catch an equal or greater number of errors with small test cases."],
+
+["What is black box testing?",
+"You have no access to internals; you do however know the interface"],
+
+["What sort of situation might give you a mix of black and white box testing?",
+"If you're using a lot of third party software, your white box testing of your own code will be/involve black box testing of the software you're using."],
+
+["What three challenges do you have in testing?",
+ "(1) Many different types of input (2) Lots of different ways in which input choices can affect output (3) A functionally infinite number of possible inputs and combinations."],
+
+["How do you conduct equivalence partitioning?", 
+"Categorise inputs based on expected output (ie valid or invalid, then partition into ranges of inputs that will get valid or invalid responses. Then find all the combinations of partitions that can be input simulataneously into the system and input them"]
+]
+}
