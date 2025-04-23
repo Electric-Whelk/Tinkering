@@ -1,0 +1,86 @@
+{"QandA":
+[
+
+["Name two widely used validated questionnaires",
+"(1) Nasa TLX - \"task load index\", purports to measure perceived effort \n(2) System usability survey - a quick-to-perform survey of basic usability"],
+
+["Name three uses of questionnaires",
+"(1) To get lots of data with a very low resource cost (questionnaires are highly scalable) \n(2) To collect demographic data and user opinions\n(3) to evaluate designs and clarify user requirements"],
+
+["If you do want to develop your own questionnaires, what Jon's three recommendations?",
+"(1) Don't ask too many questions, people get fatigued \n(2) be careful of leading questions; ask questions \"in a neutral way\".\n(3) Don't write your own questionnaires! use validated ones!"],
+
+["What is a validated questionnaire?",
+"One which has been rigorously tested to demonstrate that it is testing what it purports to test. A lot are out there and are easily findable weith some quick research."],
+
+["Tell me about the Nasa TLX",
+"Purports to test the perceived workload of the user - a complex meausre that amounts to the require of physical and mental effort required. Set out in 1988, it focusses on measuring immediate and often unverbalised impressions. Designed originally for aviation, it has become popular across a range of industries, including games, with 8k+ citations. It is supported by free apps for iOS and android"],
+
+["What six dimensions does the Nasa TLX have?",
+"(1) Mental demand\n(2) Physical demand\n(3) temporal demand - how much time pressure were you under?\n(4) frustration\n(5) effort - how hard did the user feel they had to work both mentally and physicallyl?\n(6) performance - how well did the user think they did? How successfully did they accomplish the task?"],
+
+["What are the steps required to run a Nasa TLX?",
+"(1) User uses the software first and the questionnaire is run after completion - note that this may mean their recollection is inaccurate\n(2) The relative importance of each dimension is identified; this is optional and studies are mum as to whether relative weighting improves or diminishes accuracy\n(3) Each dimension is rated along a line by the user."],
+
+["How do you weigh the Nasa TLX dimensions?",
+"The user is given all fifteen possible pairs of the six dimensions and asked which of the two made a more signfiicant contribution to perceived workload. Fo reach winning matchup, a dimension is scored +1. the sum of all relative weights should not exceed fifteen and nothing should be higher than 5, although some may be zero."],
+
+["How are the six dimensions of a NasaTLX measured?",
+"Users place each dimension on a line from very low to very high, except perfromacne, which is perfect to failure. Each line has 21 ticks, dividng the score from 0 to 100 in increments of 5; if a user marks between two ticks, the value of the right tick is used. the score is the tick location minus one multiplied by 5, creating a percentage score."],
+
+["How do you aggregate the scores of the six dimensions of the Nasa TLX?",
+"the goal is to get an overall score from 0 to 100. If you are using relative weights, multiply each dimension by the weight, sum the result and divide by 15. Otherwise, just sum them and divide by 6. Do make sure to keep the seperate (\"raw\") scores as well as they can still include useful information"],
+
+["Why choose the NASA TLX?",
+"(1) Validated - including that the six sub dimensions do each measure something distinct?\n(2) 40 years of use"],
+
+["Tell me about the system usability survey",
+"A quick and cheap survey, validated on very small sample sizes, that tests whether the system is usable. It contains ten questions, each of which has five possible responses, ranging from strongly agree to strongly disagree. It's been widely used in a range of software technology and has +1300 citations. "],
+
+["What is a likert scale? where would you find one in the context of this course?",
+"A likert scale measures from agreement to disagreement; a 5-point likert scale (strongly disagree, disagree, neutral, agree, strogly agree) is uesd in the sysem usability survey "],
+
+["How would you carry out a system usability survey?",
+"Users are given the ten questions and a 5-point likert scale for each. Determine the score contribution of each question, multiply the sum of these by 2.5 to get an overall score from 0 to 100"],
+
+["What are the 5 odd numbered questions in the SUS? What is special about them?",
+"Disgreement with an odd numbered question is bad! They go (1) I think I would like to use the system frequenty\n(3) I found the system easy to use\n(5) I thought the functions in the system were well integrated\n(7) I would imagine most people could learn to use this system quickly\n(9) I felt confident using the system"],
+
+["What are the 5 even numbered questions in the SUS? What is special about them?",
+"Agreement with an even numbered question is bad! They go\n(2) I found the system unnecessarily complex\n(4) I would need the support of a technical person to be able to use the system\n(6) I thought there was too much inconsistency in the system\n(8) I found the system cumbersome to use \n(10) I needed to learn a lot of things before I could get going with this system"],
+
+["How do you calculate the score contribution of each question in the SUS?",
+"For odd numbered items, the score contribution is the scale position -1. For the even numbered items, it is 5 minus the scale position"],
+
+["What would an average score out of 100 be for the SUS?",
+"Research has shown over the SUS's wide usage that a score above 68 suggests a broadly usable system and a score below 68 suggests more work is needed. 68 is the average."],
+
+["What is the difference between a within-subjects and a between-groups experimental design? What are the pros and cons of each?",
+"(Jon explains this using the specific example of testing gameplay at different difficulty levels so I'll use that framework, but it could apply for different iterations of usable software)\n In a within-subjects test, everyone tries both levels. In a between-subjects test, you have two groups, one for each level."],
+
+["What are the pros and cons of a within-subjects test framework?",
+"It requires fewer participants and means that you don't have to allow for different skill levels between the groups - everyone functions \"as their own control\". The downside is that you fall afoul of the learning effect, where a tester's experience on one model of the software may make the second one they are shown easier to them"],
+
+["What are the pros and cons of a between-groups test framework?",
+"It avoids the learning effect, but you have to be careful to make sure your groups have comparable skill levels, which can be dicey. It also has the disadvantage of requiring twice the number of subjects"],
+
+["What is the Wilcoxon Signed-Rank Test?",
+"A statistical test to be used for when one user carries out two evaluations, as in the within-subjects test you did in the workshop. It can handle ordinal data, and requires at least 5 users (although increases in reliability if you have more)."],
+
+["What is ordinal data?",
+"Scores on scales - both the Nasa TLX and the SUS provide ordinal data. Whereas a lot of statistical methods require all outputs to go on a number line, where a score of 2 is twice the value of 1 and intervals are equal. On an ordinal scale, however, scoring 80 is not four times as much as 20 - it isn't, for example, on a Nasa TLX scale."],
+
+["How do you conduct the Wilcoxon signed-rank test?",
+"Take your two columns of scores Input these into a Wilcoxon calculator, which can be found online. This returns a W test statistic. We go to a wilcoxon table and look up the row corresponding to our number of users and the colum number corresponding to our alpha value. We have to make sure our W test statistic is higher than the number there; if it's less or equal there is a significant difference"],
+
+["What is the significance level in the cotext of the Wilcoxon Signed-Rank test and how is it calculated?",
+"You don't calculate it, you choose it! A significance level of 0.05 means that if a difference is found it is expected to have a 95% chance of revealing a genuine issue and a 5% chance of just being random noise. As 0.05 is the standard in behavioural sciences, this suggest that 5% of behavioural science results are noise. You could make it 0.01 - physics uses very small values. For software usability we go with behavioural sciences and use 0.05"],
+
+["What do you notice about the arrangement of numbers on the wilcoxon table?",
+"As n and alpha values increase, so do the numbers. this means that the fewer participants and the higher your significance level, the more likely it is that your work will have a significant difference"],
+
+["What is the Man-Whitney U test?",
+"A statistical test used for when two different users carry out two evaluations returning ordinal data"]
+
+]
+}

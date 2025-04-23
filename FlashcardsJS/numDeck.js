@@ -12,7 +12,7 @@ class numDeck{
             let t = this.topCard();
             let i = 0;
             while(this.topCard() === t && i < 20){
-                console.log("shuffling...")
+                console.log("shuffling... (" + i + ")")
                 this.shuffle();
                 i++
             }
@@ -49,7 +49,7 @@ class numDeck{
         let i = this.deck.length - 1;
         let j;
         let tmp;
-        while(i != 0){
+        while(i > 0){
             j = this.randomInt(i);
             i--;
 

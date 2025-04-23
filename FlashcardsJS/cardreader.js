@@ -8,11 +8,12 @@ let req = "RequirementsEngineering"
 let sus = "Sustainability"
 let pro = "ProjectManagement"
 let qual = "SoftwareQualityAndTesting"
+let hci1 = "HCIEvaluationOne"
+let hci2 = "HCIEvalauationTwo"
 
-let arr = [dev, ood, req, sus, pro, qual];
+let arr = [dev, ood, req, sus, pro, qual, hci1, hci2];
 
 for(let str of arr){
-    console.log(str)
     let tmp = document.getElementById(str);
     tmp.addEventListener("click", () => getEm(str));
 }
