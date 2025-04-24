@@ -7,7 +7,7 @@
 ["System requirements include functional and non-functional requirements. What are the functional requirements?",
 "Requirements that say what a system is supposed to do, for example - what the system should do in particular sitautions or in response to particular inputs; services the system should provide, and things it should not do"],
 
-["System reuirements include a functional and non-functional requirements. What are the non-functional requirements?",
+["System requirements include functional and non-functional requirements. What are the non-functional requirements?",
 "Constraints on the services offered by a system; these usually pertain to the whole system and not just individual features. Basically, this is stuff about the quality or nature of the services rather than the services itself."],
 
 ["What are the five groups of people involved in requirements engineering?",

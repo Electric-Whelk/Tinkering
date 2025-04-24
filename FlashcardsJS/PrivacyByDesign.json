@@ -38,7 +38,7 @@
 "This is a concern that software may be less effective if it cannot more freely collet user data. By holistically integrating privacy considerations into development as in the Privacy by Design model, we can head off these tradeoffs at the pass"],
 
 ["As you well fucking know, the moden internet economy rests on data harvesting. What is the term Ruzanna uses to describe these business models?",
-"they are \"data hungry\"Explain the \"\" strategy (one of Hoepman's Privacy Design strategies)"],
+"they are \"data hungry\""],
 
 ["What are personas and how are they relevant to privacy by design?",
 "Personas are fictitious example people whose needs and resources can be determined from widely available data; you can design for them, or generate pre-set customization plans based on them, without needing to ask users or testers for data"],

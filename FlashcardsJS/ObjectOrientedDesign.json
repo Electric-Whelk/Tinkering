@@ -95,7 +95,7 @@
 ["How are conditions represented in UML sequence diagrams?",
 "An interaction fram, albelled alt, divided into rows for condition 1, condition 2, etc; the interactions within each row happen if the respected condition is true"],
 
-["How are loops represented in UML seuqnece diagrams?",
+["How are loops represented in UML sequence diagrams?",
 "An interaction frame, labelled loop with the for each condition in the label, surrounding all things that loop"]
 
 ]

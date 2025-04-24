@@ -19,8 +19,8 @@
 ["What six dimensions does the Nasa TLX have?",
 "(1) Mental demand\n(2) Physical demand\n(3) temporal demand - how much time pressure were you under?\n(4) frustration\n(5) effort - how hard did the user feel they had to work both mentally and physicallyl?\n(6) performance - how well did the user think they did? How successfully did they accomplish the task?"],
 
-["What are the steps required to run a Nasa TLX?",
-"(1) User uses the software first and the questionnaire is run after completion - note that this may mean their recollection is inaccurate\n(2) The relative importance of each dimension is identified; this is optional and studies are mum as to whether relative weighting improves or diminishes accuracy\n(3) Each dimension is rated along a line by the user."],
+["What are the three steps that the subject undertakes when filling out the Nasa TLX?",
+"(1) User uses the software (the questionnaire is run after completion - note that this may mean their recollection is inaccurate\n(2) The relative importance of each dimension is identified; this is optional and studies are mum as to whether relative weighting improves or diminishes accuracy\n(3) Each dimension is rated along a line by the user."],
 
 ["How do you weigh the Nasa TLX dimensions?",
 "The user is given all fifteen possible pairs of the six dimensions and asked which of the two made a more signfiicant contribution to perceived workload. Fo reach winning matchup, a dimension is scored +1. the sum of all relative weights should not exceed fifteen and nothing should be higher than 5, although some may be zero."],
@@ -31,7 +31,7 @@
 ["How do you aggregate the scores of the six dimensions of the Nasa TLX?",
 "the goal is to get an overall score from 0 to 100. If you are using relative weights, multiply each dimension by the weight, sum the result and divide by 15. Otherwise, just sum them and divide by 6. Do make sure to keep the seperate (\"raw\") scores as well as they can still include useful information"],
 
-["Why choose the NASA TLX?",
+["Why choose the NASA TLX? (two reasons)",
 "(1) Validated - including that the six sub dimensions do each measure something distinct?\n(2) 40 years of use"],
 
 ["Tell me about the system usability survey",
@@ -44,7 +44,7 @@
 "Users are given the ten questions and a 5-point likert scale for each. Determine the score contribution of each question, multiply the sum of these by 2.5 to get an overall score from 0 to 100"],
 
 ["What are the 5 odd numbered questions in the SUS? What is special about them?",
-"Disgreement with an odd numbered question is bad! They go (1) I think I would like to use the system frequenty\n(3) I found the system easy to use\n(5) I thought the functions in the system were well integrated\n(7) I would imagine most people could learn to use this system quickly\n(9) I felt confident using the system"],
+"Disgreement with an odd numbered question is bad! They go \n(1) I think I would like to use the system frequenty\n(3) I found the system easy to use\n(5) I thought the functions in the system were well integrated\n(7) I would imagine most people could learn to use this system quickly\n(9) I felt confident using the system"],
 
 ["What are the 5 even numbered questions in the SUS? What is special about them?",
 "Agreement with an even numbered question is bad! They go\n(2) I found the system unnecessarily complex\n(4) I would need the support of a technical person to be able to use the system\n(6) I thought there was too much inconsistency in the system\n(8) I found the system cumbersome to use \n(10) I needed to learn a lot of things before I could get going with this system"],
@@ -55,7 +55,7 @@
 ["What would an average score out of 100 be for the SUS?",
 "Research has shown over the SUS's wide usage that a score above 68 suggests a broadly usable system and a score below 68 suggests more work is needed. 68 is the average."],
 
-["What is the difference between a within-subjects and a between-groups experimental design? What are the pros and cons of each?",
+["What is the difference between a within-subjects and a between-groups experimental design?",
 "(Jon explains this using the specific example of testing gameplay at different difficulty levels so I'll use that framework, but it could apply for different iterations of usable software)\n In a within-subjects test, everyone tries both levels. In a between-subjects test, you have two groups, one for each level."],
 
 ["What are the pros and cons of a within-subjects test framework?",

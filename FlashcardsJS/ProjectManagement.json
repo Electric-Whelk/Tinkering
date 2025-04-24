@@ -59,7 +59,10 @@
 "Discuss what went well and badly during the sprint, identify challenges and blockers, adjust how to improve collaboration going forward"],
 
 ["What is time-boxing",
-"Time limiting! Very ipmortant for exercises like planning poker, sprint reviews and sprint retrospectives, which are important but shouldn't overtake coding time"]
+"Time limiting! Very ipmortant for exercises like planning poker, sprint reviews and sprint retrospectives, which are important but shouldn't overtake coding time"],
+
+["What are story points?",
+"Explained badly in the course! From my own research, it's a metric of workload and doesn't refer strictly to an amount of time, but rather relative effort compared to other tasks. If you decide that a User Story took you three story points, then another user story twice its size would take six."]
 
 ]
 }

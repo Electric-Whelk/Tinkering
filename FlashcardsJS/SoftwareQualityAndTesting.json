@@ -13,8 +13,8 @@
 ["What is \"system under test\"",
 "During software testing, it is the formal term for the subject. That can be the software system as a whole or it can be individual functional parts of it."],
 
-["What is yuor specification in a testing context?",
-"It's... well, a specification. what's important i that your test cases try to cover it, your system under test implements it and your oracle approximates it."],
+["What is your specification in a testing context?",
+"It's... well, a specification. what's important is that your test cases try to cover it, your system under test implements it and your oracle approximates it."],
 
 ["what do your test cases have to do?",
 "execute your system-under test, try to cover your specification"],
