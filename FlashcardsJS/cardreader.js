@@ -9,29 +9,16 @@ let sus = "Sustainability"
 let pro = "ProjectManagement"
 let qual = "SoftwareQualityAndTesting"
 let hci1 = "HCIEvaluationOne"
-let hci2 = "HCIEvalauationTwo"
+let hci2 = "HCIEvaluationTwo"
+let pbd = "PrivacyByDesign"
 
-let arr = [dev, ood, req, sus, pro, qual, hci1, hci2];
+let arr = [dev, ood, req, sus, pro, qual, hci1, hci2, pbd];
 
 for(let str of arr){
     let tmp = document.getElementById(str);
     tmp.addEventListener("click", () => getEm(str));
+    console.log("Initialized for " + str)
 }
-
-/*getElementById("ood");
-ood.addEventListener("click", () => getEm("ObjectOrientedDesign"))
-
-let devmeth = document.getElementById("ood");
-devmeth.addEventListener("click", () => getEm("Devn"))
-
-/*fetch("ObjectOrientedDesign.json")
-.then(response => {
-    return response.json();
-})
-.then(jsondata => {
-    initialize(jsondata);
-})
-.catch(error => console.error("Error caught: " + error));*/
 
 function getEm(input){
     fetch(input.concat(".json"))

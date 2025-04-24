@@ -1,0 +1,80 @@
+{"QandA":
+[
+
+["What is GDPR?",
+"General Data Protection regulation - EU ICT privacy laws"],
+
+["How do the UK, US and EU respectively handle data privacy?",
+"UK - Data Protection Act; EU - GDPR; US - a patchwork of state and national laws; while individual laws differ you always have a right to some degree of privacy"],
+
+["What are the 8 principles of data protection?",
+"Any company storing data must make sure that it is \n(1)Fairly and lawfully processed (ie via consent, contracts, legal obligations; any kind of data manipulation is processing.) \n(2) Processed for limited purposes \n(3) Adequate, relevant and not excessive \n(4) Accurate and kept up to date where necessary \n(5) Not kept longer than necessary \n(6) Processed in accordance with the subject's rights \n(7) secure \n(8) Not transferred to countries that have inadequate data protection"],
+
+["Why is data protection important?",
+"It impacts our opportunities in life - if people knew our credit rating, or if we had a learning disability, or if we had a criminal record"],
+
+["What is an example of processing data (with relevance to the first principle of data protection",
+"If you know that I am buying vegetarian options and adjust advertising to provide only vegetarian options, that is processing; it must be done via consent, contracts, legal obligations etc. Note that this consent is often thoughtlessly given via skimmable terms and conditions"],
+
+["What does it mean, in the context of the principles of data protection, for data to be used without respect to limited purpose?",
+"As an example, if you collect data on household heating to inform local environmental policy, that data cannot be sold to someone who sells heating equipment"],
+
+["What does it mean, in the context of the prinicples of data protection, to avoid collecting excessive data?",
+"For example, if you are collecting medical detail for treatment purposes, you shouldn't ask questions that do not help with that"],
+
+["What is an example of misuse of data by keeping data for too long",
+"Keeping criminal records well after the person has been through the justice system"],
+
+["What does it mean for data to be processed in accordance with the subject's rights?",
+"For example, one right people have is to withdraw. If they say they want to withdraw, you have to delete all information about them for the records. Note, interestingly, that this cannot be invoked after the data is anonymised, which in many data collection processes is something that happens to data after a while."],
+
+["What is privacy by design?",
+"a privacy focussed development approach in which you engage with your stakeholders and ensure that privacy is developed from the first step in your software solution"],
+
+["why would you utilize privacy by design principles? three reasons:",
+"(1) Reduce risk of data breaches \n(2) Build trust with users, and make your software easier to use - privacy-conscious users may forgo useful features in your app over privacy fears, like automatic information savings \n(3) Minimizes the chances of a bust-up with regulators"],
+
+["What is the privacy-utility tradeoff and how does it relate to privacy by design? ",
+"This is a concern that software may be less effective if it cannot more freely collet user data. By holistically integrating privacy considerations into development as in the Privacy by Design model, we can head off these tradeoffs at the pass"],
+
+["As you well fucking know, the moden internet economy rests on data harvesting. What is the term Ruzanna uses to describe these business models?",
+"they are \"data hungry\"Explain the \"\" strategy (one of Hoepman's Privacy Design strategies)"],
+
+["What are personas and how are they relevant to privacy by design?",
+"Personas are fictitious example people whose needs and resources can be determined from widely available data; you can design for them, or generate pre-set customization plans based on them, without needing to ask users or testers for data"],
+
+["What is the inform-and-give-choice approach to offering services without data collection?",
+"This is where you give people information and let them choose if it applies to them. In ruzanna's home improvement example, this is relevant to areas where personas are too approximate, like checking whether a user is eligible for a home improvement grant - you tell them about the grants and let them see if they are eligible."],
+
+["How would you go about generating a persona?",
+"Trial the persona's user journey, see the purpose for which data is shared, and operationalize the GDPR rule that you shouldn't keep data unless there's a clear use for it"],
+
+["Explain the \"minimize\" strategy (one of Hoepman's Privacy Design strategies)",
+"collect as little data as possible, and only what is useful"],
+
+["Explain the \"hide\" strategy (one of Hoepman's Privacy Design strategies)",
+"A good example of this is that when you put your password in, it does not appear as a password, it appears as stars."],
+
+["Explain the \"separate\" strategy (one of Hoepman's Privacy Design strategies)",
+"If you store individual details about people seperately, there is no wholesale privacy loss if one bit is breached"],
+
+["Explain the \"aggregate\" strategy (one of Hoepman's Privacy Design strategies)",
+"Store data at the highest possible aggregation level. for example, if you need information about consumption across an area, don't store the consumption of individual users, use the average for the area"],
+
+["Explain the \"inform\" strategy (one of Hoepman's Privacy Design strategies)",
+"collect no data without informing the user that it is being collected"],
+
+["Explain the \"control\" strategy (one of Hoepman's Privacy Design strategies)",
+"give people the abiltiy to control, from an informed perspective, what data is being collected"],
+
+["Explain the \"enforce\" strategy (one of Hoepman's Privacy Design strategies)",
+"put in place and enforce contractual and legal requirements"],
+
+["Explain the \"demonstrate\" strategy (one of Hoepman's Privacy Design strategies)",
+"Be ready to demonstrate your software's compliance with guidelines"],
+
+["What are Hoepman's eight privacy design strategies?",
+"(1) Minimize \n(2) Hide \n(3) Separate \n(4) Agregate \n(5) Inform \n(6) Control \n(7) Enforce \n(8) Demonstrate"]
+
+]
+}

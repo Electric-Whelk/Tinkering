@@ -46,22 +46,22 @@
 ["What is association in UML?",
 "Two classes are associated if they are related, and a line is drawn on the UML diagram between them. This line should reflect multiplicity: an appointment has one patient, a patient has one doctor, a doctor has many patients."],
 
-["an unspecified number of",
+["In a UML class diagram, what is the notation for a multiplicity of \"an unspecified number of\"",
 "just an undecorated line"],
 
-["zero or more",
+["In a UML class diagram, what is the notation for a multiplicity of \"zero or more\"",
 "*, or technically 0..*"],
 
-["exactly x",
+["In a UML class diagram, what is the notation for a multiplicity of \"exactly x\"",
 "x"],
 
-["x or more",
+["In a UML class diagram, what is the notation for a multiplicity of \"x or more\"",
 "x..*"],
 
-["between x and y",
+["In a UML class diagram, what is the notation for a multiplicity of \"between x and y\"",
 "x..y"],
 
-["z, or between x and y",
+["In a UML class diagram, what is the notation for a multiplicity of \"z, or between x and y\"",
 "z, x..y"],
 
 ["What is an aggregation in UML?",
@@ -79,7 +79,7 @@
 ["What is the difference between abstract and concrete classes?",
 "Concrete can have objects."],
 
-["What is the difference between generalization and aggregation",
+["What is the difference between generalization and aggregation?",
 "Generalization is 'is a kind of', aggregation is 'is a part of'; generalization relates to inheritance while aggregation relates to composition"],
 
 ["What is a UML sequence diagram?",
