@@ -68,7 +68,7 @@
 "Each of the 5 aspects of the 5 dimensions are put as questions (\"how will the product interact with this\"); write down negtive effects on orange cards and positive effects on blue ones. Then prsent all ideas to the teams, clustered if possible. Discuss them and group them on a chart where the x axis goes unlikely to likely and the y axis goes low impact to high."],
 
 ["What are the 5 aspects of the social dimension of sustainability?",
-"(1) Sense f community - how does the product affect a person's sense of belonging to an area/group/organization? \n(2) Trust - how does the product affect the trust between users and owners of the system? \n(3) Inclusiveness/Diversity - impact of the product of interpersonal perceptions and on people of marginalized backgrounds. \n(4) Equity - how does the system impact how people may be treated differently from each other in terms of opportunity of equality and of outcome; does it impact impartiality? \n(5) Participation and communication - how does the prdouct affect how people impart and/or interchange thoughts, opinions and information?"],
+"(1) Sense of community - how does the product affect a person's sense of belonging to an area/group/organization? \n(2) Trust - how does the product affect the trust between users and owners of the system? \n(3) Inclusiveness/Diversity - impact of the product of interpersonal perceptions and on people of marginalized backgrounds. \n(4) Equity - how does the system impact how people may be treated differently from each other in terms of opportunity of equality and of outcome; does it impact impartiality? \n(5) Participation and communication - how does the prdouct affect how people impart and/or interchange thoughts, opinions and information?"],
 
 ["What are the 5 aspects of the individual dimension of sustainability?",
 "(1) Health, physical and emotional \n(2) Lifelong learning - how does it affect people's competencies. \n(3) Privacy - freedom from intrusion/disturbance. \n(4) Safety - protection from risk or injury \n(5) Free will - the capacity of an individual to make decisions on their own."],
@@ -86,7 +86,7 @@
 "(1) Immediate - relating to production, use, operation and disposal. \n(2) Enabling - changes induced by the system \n(3) Structural - changes emeging from the ongoign operation and use of the system, as its usage accumulates with large numbers of users."],
 
 ["Describe a SusAD ",
-"Five segments corresponding to the sustainability dimensions, three concentric layers, place an effect in a quadrant at a layer corresponding to its lefel of effect, draw arrows between these effects to show the order the way that one causes another (\"Chains of effects\")"],
+"Five segments corresponding to the sustainability dimensions, three concentric layers, place an effect in a quadrant at a layer corresponding to its level of effect, draw arrows between these effects to show the order the way that one causes another (\"Chains of effects\")"],
 
 ["What happens in the analysis phase of SusAF?",
 "Put your postits on a SusAD."],
@@ -94,17 +94,11 @@
 ["What happens in the synthesis phase of SusAF?",
 "Identify opportunities and threats and determine actions for each. "],
 
-["What two areas of continued collaboration do SusAF offer?",
-"(1) Interviews on the state of practice as a team of practitioners \n(2) A detailed analytic workshop providing information about the sustainability of your IT product and resulting opportunities/risks"],
-
-["On your reading of the Karlskrona manifesto, you summarized its proposals down to six statements about sustainability. What are they?",
-"Sustainability is: \n(1) Systemic - always transdisciplinary and must be placed within the wider context of software/system use \n(2) Multidimensional \n(3) Is a primary concern in system development, independent of the specific purpose of that system \n(4) Requires action of multiple levels \n(4) Necessitates system visibility to enable participation and informed decision making. \n(5) Requires long-term thinking, but can also be achieved without sacrificing current needs."],
+["On your reading of the Karlskrona manifesto, you summarized its proposals down to five statements about sustainability. What are they?",
+"Sustainability is: \n(1) Systemic - always transdisciplinary and must be placed within the wider context of software/system use \n(2) A multidimensional wicked problem with no clear end point \n(3) Is a primary concern in system development, independent of the specific purpose of that system \n(4) Necessitates system visibility to enable participation and informed decision making. \n(5) Requires long-term thinking, but can also be achieved without sacrificing current needs."],
 
 ["What is a wicked problem, and how does this relate to the Karlskrona manifesto's perspective on sustainability?",
-"A problem lacking a single solution, and/or one of sufficient social complexity that there is no determinable stopping point, and/or one whose solution creates or reveals other problems. The term \"wicked\" refers to the mischievous intractibiilty of these problems in the face of solutions; they seem to morph and outsmart the solver. The Karlskrona manifesto identifies sustainability as a wicked problem, and highlights in particular that it lacks a single solution, and that related problems lack a distinct completion point at which success can be measured in accordance with predetermined criteria."],
-
-["I've identified the following points which, although not facts to memorize, are indicative of the level at which we are expected to know this stuff. What are the things?",
-"(1) Ruzanna was involved both in the Karlskrona manifesto and in the Software practitioners review, so probably shares their views \n(2) Sustainabilty concerns can and should feature in user stories, and/or be added to product backlogs"],
+"A problem lacking a single solution, and/or one of sufficient social complexity that there is no determinable stopping point, and/or one whose solution creates or reveals other problems. The term \"wicked\" refers to the mischievous intractibility of these problems in the face of solutions; they seem to morph and outsmart the solver. The Karlskrona manifesto identifies sustainability as a wicked problem, and highlights in particular that it lacks a single solution, and that related problems lack a distinct completion point at which success can be measured in accordance with predetermined criteria."],
 
 ["What is software architecture?",
 "Fundamental organization of a software system as embodied in its components, their interrelationships, their relationships to the environment, and the princples guiding its design and evolution."],
