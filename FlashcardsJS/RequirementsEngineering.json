@@ -49,14 +49,20 @@
 ["What are user stories?",
 "It's a template - 'as a <type of user> I want to <some goal> for <some reason>'. Each one has acceptance criteria."],
 
+["How should you structure acceptance criteria?",
+"Don't remember it being taught but it's in the exam! Answers are given in a given x, when y, then z format"],
+
 ["What is the INVEST acronym for good user-stories?",
-"I - independent; you can put them into sprits one at a time and implement them independently of each other \nN - negotiable; open to change and discussion \nV - valuable; delivers clear value to the user \nE - estimatable; you can estimate how much time/effort it will take \nS - small; you can do it in a single two-week sprint\nT - testable"],
+"I - independent; you can put them into sprints one at a time and implement them independently of each other \nN - negotiable; open to change and discussion \nV - valuable; delivers clear value to the user \nE - estimatable; you can estimate how much time/effort it will take \nS - small; you can do it in a single two-week sprint\nT - testable"],
 
 ["What four features should good user story acceptance crtieria have?",
 "(1) easy to underestand and unambiguous \n(2) testable \n(3) measurable via a formal quantiative or qualitative method \n(4) Atomic, each criteria can be checked by itself"],
 
 ["What is the Moscow Method",
-"A slightly warped acronym - Must have, could have, could have, won't have. It's a way of categorizing features of software you're developing, as part of agile development."]
+"A slightly warped acronym - Must have, could have, could have, won't have. It's a way of categorizing features of software you're developing, as part of agile development."],
+
+["What are the six advantages of paper prototyping?",
+"(1) quick and cheap \n(2) Easy to make iinstant design changes \n(3) Facilitates communciation early in development by helping the development team and stakeholders visualize the use and layout \n(4) Helps us to better understand product and users \n(5) Low investment evaluation; any issues that emerge can be easily factored into design rather than re-factored, and you can trial multiple implemnentations \n(6) Makes clear the distinction between conceptual and programmatic errors"]
 
 ]
 }
