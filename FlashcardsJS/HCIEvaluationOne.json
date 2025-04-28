@@ -5,7 +5,7 @@
 "That user testing needs to be integrated into development in an iterative fashion"],
 
 ["What is the think-aloud evaluation technique",
-"A user uses your software and just says aloud what they're thinking"],
+"A user uses your software and just says aloud what they're thinking. It is an empirical, rather than inspection, method of evaluation"],
 
 ["What are the five benefits of think-aloud evaluation?",
 "(1) It's cheap\n(2) It's easy\n(3) It provides insight into peoples thought processes\n(4) It can be done with a small number of participants\n(5) It fits in well into a lot of existing development processes"],
@@ -20,7 +20,7 @@
 "Explains the rules and reassures the participant to lead them away from social desirability bias. They can advise the user but only after they have been stuck for a while. If the participant goes silent, the facilitator prompts them to say what they are thinking"],
 
 ["How do you analyse the output of a think-aloud evaluation?", 
-"Identify problems, count the number of times that a participant faced a given problem, and note down features that the users wanted"],
+"Identify problems, count the number of times that a participant faced a given problem, and note down features that the users wanted; data can also be grouped into significant categories, ie, things users liked, didn't like, wanted, etc."],
 
 ["what is the key difference between heuristic and think-aloud evaluation?",
 "Think-aloud is carried out by prospective users, while herustic is carried out by experts (who may or may not be developers)."],

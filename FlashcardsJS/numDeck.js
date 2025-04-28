@@ -10,18 +10,20 @@ class numDeck{
             this.deck.shift();
         }else{
             let t = this.topCard();
-            let i = 0;
+            /*let i = 0;
             while(this.topCard() === t && i < 20){
                 console.log("shuffling... (" + i + ")")
                 this.shuffle();
                 i++
-            }
+            }*/
+           this.deck.shift();
+           this.deck.push(t);
         }
     }
 
     getTotalCards(){return this.totalCards;}
     
-    getRemainingCards(){return this.getTotalCards() - this.deck.length;}
+    getRemainingCards(){return Math.min(this.getTotalCards() - this.deck.length, this.getTotalCards())}
 
     getDeck(inp){
         //BOOKMARK

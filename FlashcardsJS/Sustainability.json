@@ -2,7 +2,7 @@
 [
 
 ["When you design a software solution, what 3 sustainability considerations do you start with?",
-"(1) What are you designing? \n(2) Where do you rdaw the boundry of what you are developing \n(3) What is the purpose of what you're developing?"],
+"(1) What are you designing? \n(2) Where do you draw the boundry of what you are developing \n(3) What is the purpose of what you're developing?"],
 
 ["What four questions should you ask when scoping a project?",
 "(1) what am I designing? \n(2) Who am I designing for (a facebook user or a data broker?) \n(3) How long will my software be used for? \n(4) at what cost - ROI, social/environmental impact"],
@@ -59,7 +59,7 @@
 "sustainabilitly awareness framework, a question-based framework for bringing your stakeholders/clients into a discussion about sustainability. It structures them according to the five dimensions of sustainability, with five questions for each element based on the most common recurring topics."],
 
 ["What are the four steps of SusAf?",
-"(1) Warm up - introduce the participants and product. \n(2) Capture - collect and categorise potential effects of the product \n(3) Analysis - build chains fo effects to discover causal relationships. \n(4) Syntehsis - discuss opportunities and risks, and develop corresponding actions."],
+"(1) Warm up - introduce the participants and product. \n(2) Capture - collect and categorise potential effects of the product \n(3) Analysis - build chains fo effects to discover causal relationships. \n(4) Synthesis - discuss opportunities and risks, and develop corresponding actions."],
 
 ["What happens in the warm-up stage of SusAf?",
 "Listing the known sustainability effects in a Sustainable Development Goals (SDG) or Corporate Social Responsibility (CSR) framework."],
@@ -100,8 +100,8 @@
 ["What is a wicked problem, and how does this relate to the Karlskrona manifesto's perspective on sustainability?",
 "A problem lacking a single solution, and/or one of sufficient social complexity that there is no determinable stopping point, and/or one whose solution creates or reveals other problems. The term \"wicked\" refers to the mischievous intractibility of these problems in the face of solutions; they seem to morph and outsmart the solver. The Karlskrona manifesto identifies sustainability as a wicked problem, and highlights in particular that it lacks a single solution, and that related problems lack a distinct completion point at which success can be measured in accordance with predetermined criteria."],
 
-["What is software architecture?",
-"Fundamental organization of a software system as embodied in its components, their interrelationships, their relationships to the environment, and the princples guiding its design and evolution."],
+["The \"architecture\" of a software system is its fundamental organization, as embodied in what four things?",
+"(1) Its components \n(2) the interrelationships of these components \n(3)The relation of these components to the environment \n(4) The princples guiding its design and evolution."],
 
 ["Name five issues that impact architectural decisions",
 "(1) Non-functional requirements (what energy does it use, how does it handle privacy, etc) \n(2) Compatibility with other softawre including sustainability grants \n(3) Number of users, worldwide \n(4) Longevity of the product \n(5) How will it impact the use of other software/services?"]

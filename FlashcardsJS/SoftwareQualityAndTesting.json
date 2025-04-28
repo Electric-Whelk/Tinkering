@@ -44,6 +44,12 @@
  "(1) Many different types of input\n(2) Lots of different ways in which input choices can affect output\n(3) A functionally infinite number of possible inputs and combinations."],
 
 ["How do you conduct equivalence partitioning?", 
-"Categorise inputs based on expected output (ie valid or invalid, then partition into ranges of inputs that will get valid or invalid responses. Then find all the combinations of partitions that can be input simulataneously into the system and input them"]
+"Categorise inputs based on expected output (ie valid or invalid, then partition into ranges of inputs that will get valid or invalid responses. Then find all the combinations of partitions that can be input simulataneously into the system and input them"],
+
+["What are boundary values?",
+"Values that are near the extremes of your partitions in Black Box testing - for example, if 0 < input < 75 is acceptable, test 0 and 75 (and 1, -1, 74 and 76). Boundary values tend to be error hotbeds."],
+
+["what four assert statements are available in Junit?",
+"(1) assertTrue \n(2) assertFalse \n(3) assertEquals \n(4) assertThat"]
 ]
 }

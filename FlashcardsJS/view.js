@@ -45,7 +45,7 @@ class view{
             this.question.innerText = this.getQuestionByNumber(index);
         }
         this.answer.innerText = "";
-        this.progress.innerText = this.deck.getRemainingCards() + "/" + this.deck.getTotalCards();
+        this.progress.innerText = this.deck.getRemainingCards() + "/" + (this.deck.getTotalCards() - 1);
     }
 
     getAnswerByNumber(i){
